@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    font-family: "Anek Devanagari", "ui-sans-serif", "system-ui", "Helvetica", "Arial", "sans-serif";
+    width: 100%;
+    height: 100%;
+    @apply text-text-default;
+  }
+}

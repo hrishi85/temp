@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HP Front-end UI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-body">
+
+    <!-- ===================================================================================================== LOGIN PANEL -->
+    <main class="flex items-center justify-center w-full h-full">
+      <article class="bg-panel w-[80%] max-w-[600px] border border-panel-light shadow-md rounded-lg">
+        <header class="flex items-center justify-center px-8 py-6 border-b border-base-border-color mb-3">
+          <img src="../assets/img/hp-logo.svg" alt="" class="inline-block h-[42px]" />
+        </header>
+        <section class="p-6">
+          <form action="">
+            <h3 class="text-center text-[48px]">Forgot your<br />password?</h3>
+            <div class="form-group mb-[40px] mt-4">
+              <label for="email-input" class="relative inline-block leading-loose pr-2">Your Registered Email <sup class="bg-highlight-red inline-block absolute right-0 top-[8px] w-[6px] h-[6px] rounded-full">&nbsp;</sup></label>
+              <input type="text" name="email" id="email-input" minlength="3" maxlength="64" class="block w-full h-[42px] px-4 leading-[42px] bg-transparent border border-input rounded-md focus:outline-none caret-slate-500">
+            </div>
+            <div class="form-group mt-4 flex">
+              <button class="block h-[60px] w-full leading-[60px] text-center bg-slate-600 rounded-md text-black font-medium">Reset password</button>
+            </div>
+          </form>
+          <p class="text-center">Email sent to your registered email ID</p>
+          <div class="text-right">
+            <a href="/" class="inline-block mt-4 text-[14px] text-highlight-blue text-right border-b border-b-highlight-blue">&lt; Back</a>
+          </div>
+        </section>
+      </article>
+    </main>
+    <!-- ===================================================================================================== LOGIN PANEL ENDS -->
+
+
+    <script type="module" src="../assets/js/forgot-password.js"></script>
+  </body>
+</html>
